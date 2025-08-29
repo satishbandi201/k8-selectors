@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: node-anti-affinity
+  name: with-node-anti-affinity
 spec:
   affinity:
     nodeAffinity:
